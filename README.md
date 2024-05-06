@@ -9,27 +9,28 @@ This project delves into survival analysis to monitor how customer churn probabi
 
 ## Project Structure
 '''
-├── Images/ : stores images
-├── static/ : holds plots for gauge chart, hazard and survival curves, shap values in Flask App
-│ └── images/
-│ ├── hazard.png
-│ ├── surv.png
-│ ├── shap.png
-│ └── new_plot.png
-├── templates/ : contains HTML templates for Flask app
-│ └── index.html
-├── Customer Survival Analysis.ipynb : Notebook for Survival Analysis including Kaplan-Meier curve, log-rank test, and Cox-proportional Hazard model
-├── Exploratory Data Analysis.ipynb : Notebook for preliminary data exploration
-├── Churn Prediction Model.ipynb : Notebook for developing the Random Forest churn prediction model
-├── app.py : Flask application script
-├── app-pic.png : Snapshot of the final app interface
-├── explainer.bz2 : Shap Explainer object
-├── model.pkl : Serialized Random Forest model
-├── survivemodel.pkl : Serialized Cox-proportional Hazard model
-├── requirements.txt : Dependencies required for the project
-├── Procfile : Configuration for app deployment
-├── LICENSE.md : MIT License document
-└── README.md : Project documentation
+.
+├── Images/                             : contains images
+├── static/                             : plots to show gauge chart, hazard and survival curve, shap values in Flask App 
+│   └── images/
+│       ├── hazard.png
+│       ├── surv.png
+│       ├── shap.png
+│       └── new_plot.png
+├── templates/                          : contains html template for flask app
+│   └── index.html
+├── Customer Survival Analysis.ipynb    : Survival Analysis kaplan-Meier curve, log-rank test and Cox-proportional Hazard model
+├── Exploratory Data Analysis.ipynb     : Data Analysis to understand customer data
+├── Churn Prediction Model.ipynb        : Random Forest model to predict customer churn
+├── app.py                              : Flask App
+├── app-pic.png                         : Final App image  
+├── explainer.bz2                       : Shap Explainer
+├── model.pkl                           : Random Forest model
+├── survivemodel.pkl                    : Cox-proportional Hazard model
+├── requirements.txt                    : requirements to run this model
+├── Procfile                            : procfile for app deployment
+├── LICENSE.md                          : MIT License
+└── README.md                           : Report
 '''
 
 
