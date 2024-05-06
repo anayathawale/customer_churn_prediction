@@ -49,7 +49,7 @@ The goal is to apply non-parametric and semi-parametric survival analysis method
 **Kaplan-Meier Survival Curve:**
 
 <p align="center">
-<img src="https://github.com/anayathawale/customer_churn_prediction/blob/master/Images/SurvivalCurve.png" width="400" height="300">
+<img src="https://github.com/anayathawale/customer_churn_prediction/Images/SurvivalCurve.png" width="400" height="300">
 </p>
 
 This curve illustrates:
