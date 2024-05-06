@@ -144,7 +144,7 @@ My goal is to develop a machine learning model that can precisely predict whethe
 **Churn and Tenure Relationship:**
 
 <p align="center">
-<img src="https:/Images/tenure-churn.png" width="600" height="300"/>
+<img src="/Images/tenure-churn.png" width="600" height="300"/>
 </p>
 
 - It's evident that the longer the tenure, the lower the churn rate, indicating increased customer loyalty over time.
