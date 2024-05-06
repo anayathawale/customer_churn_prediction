@@ -237,8 +237,3 @@ We employ explainable AI tools such as Permutation Importance, Partial Dependenc
 I have saved the finely tuned Random Forest model and deployed it using a Flask web app. Flask is a lightweight web framework designed for simplicity and scalability. I also stored the Shap value explainer configured with the Random Forest model to display Shap plots within the app. Additionally, I've implemented the Cox-proportional hazard model to demonstrate survival and hazard curves and to estimate the expected lifetime value of a customer.
 
 The final application displays the probability of churn, a gauge chart indicating the severity of a customer’s potential churn, and Shap values based on individual customer data. The layout of the final app can be seen above.
-
-<p align="center">
-<img src="/static/app-pic.png" width="500" height="300"/>
-</p>
-
