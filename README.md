@@ -5,7 +5,7 @@
 This project delves into survival analysis to monitor how customer churn probability evolves over time and computes the lifetime value (LTV) of customers. Additionally, it employs a Random Forest model to forecast potential customer churn and integrates the model within a Flask web application for practical use.
 
 ## Final Customer Churn Prediction App
-<img src=https://github.com/anayathawale/customer_churn_prediction/blob/master/app-pic.png>
+<img src=https://github.com/anayathawale/customer_churn_prediction/app-pic.png>
 
 ## Project Structure
 '''
