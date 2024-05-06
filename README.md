@@ -50,7 +50,7 @@ The goal is to apply non-parametric and semi-parametric survival analysis method
 **Kaplan-Meier Survival Curve:**
 
 <p align="center">
-<img src="https://github.com/anayathawale/customer_churn_prediction/Images/SurvivalCurve.png" width="400" height="300">
+<img src="/Images/SurvivalCurve.png" width="400" height="300">
 </p>
 
 This curve illustrates:
@@ -63,16 +63,16 @@ This curve illustrates:
 This test helps to compare survival distributions of different groups. Below are the survival curves segmented by various customer attributes.
 
 <p align="center">
-<img src="https://github.com/anayathawale/customer_churn_prediction/blob/master/Images/gender.png" width="250" height="200"/> 
-<img src="https://github.com/anayathawale/customer_churn_prediction/blob/master/Images/Senior%20Citizen.png" width="250" height="200"/>
-<img src="https://github.com/anayathawale/customer_churn_prediction/blob/master/Images/partner_1.png" width="250" height="200"/> 
+<img src="/Images/gender.png" width="250" height="200"/> 
+<img src="/Images/Senior%20Citizen.png" width="250" height="200"/>
+<img src="/Images/partner_1.png" width="250" height="200"/> 
 </p>
 
 **Survival Regression:**
 We utilize the Cox-proportional hazard model for survival regression, which is ideal for examining the impact of various risk factors on survival time.
 
 <p align="center">
-<img src="https://github.com/anayathawale/customer_churn_prediction/blob/master/Images/Survival-analysis.png" width="750" height="500"/>
+<img src="/Images/Survival-analysis.png" width="750" height="500"/>
 </p>
 
 **Customer Lifetime Value:**
@@ -83,6 +83,6 @@ We compute this by multiplying the customer's monthly charges by their expected 
 The Flask app showcases the model's predictions and provides insights into factors influencing individual predictions, such as SHAP values.
 
 <p align="center">
-<img src="https://github.com/anayathawale/customer_churn_prediction/blob/master/static/app-pic.png" width="500" height="300"/>
+<img src="/static/app-pic.png" width="500" height="300"/>
 </p>
 
